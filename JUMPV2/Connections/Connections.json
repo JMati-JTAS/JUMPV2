@@ -1,0 +1,90 @@
+{
+  "2ae11560-2be4-45d8-b3f2-738cf444bcfe": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1674/1.0.1674.3602/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://jgcgroup.sharepoint.com/sites/JTASData": {
+        "dataSources": {
+          "JTAS Mobilization": {
+            "tableName": "c7a8d89f-a925-4650-a046-ffcf8a209f73"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "JTAS Mobilization"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2ae11560-2be4-45d8-b3f2-738cf444bcfe"
+  },
+  "dd624aba-f904-44d5-a7e8-19554718ee00": {
+    "appActions": [
+      "MyProfile",
+      "SearchUser",
+      "UserPhoto",
+      "SearchUserV2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1672/1.0.1672.3545/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "dd624aba-f904-44d5-a7e8-19554718ee00"
+  },
+  "e801da0f-fcd2-4b0c-90e0-52faa6399614": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1674/1.0.1674.3602/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://jgcgroup.sharepoint.com/sites/JTASInternalDataV2": {
+        "dataSources": {
+          "JTAS JUMP Log": {
+            "tableName": "451823ed-cdbd-4868-8f7b-fcc9237fbc2b"
+          },
+          "JTAS Members V2": {
+            "tableName": "0279195f-8fbb-475e-a66c-46cd53f49c07"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "JTAS Mobilization",
+      "JTAS Members V2",
+      "JTAS JUMP Log"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e801da0f-fcd2-4b0c-90e0-52faa6399614"
+  }
+}

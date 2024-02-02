@@ -1,0 +1,14 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =Set(glbUserEmail, Office365Users.MyProfile().Mail);
+        //Set(glbUserEmail, "macaraig.renz_dione@jgc.com");
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
